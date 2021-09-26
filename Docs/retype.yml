@@ -1,0 +1,17 @@
+input: ./
+branding:
+  title: Logic Link
+  label: Docs
+
+favicon: media/logo.png
+url: logic-link-bot.github.io/docs
+
+meta:
+  title: " | Logic Link Docs"
+
+links:
+  - text: Home
+    link: https://logic-link-bot.github.io
+
+  - text: Discord Server
+    link: https://discord.gg/tg9sNMjpsU
