@@ -25,9 +25,10 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/docs/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/docs/resources/css/retype.css?v=1.9.686010782930" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/docs/media/logo.png" rel="icon" />
+    <link href="/docs/resources/css/retype.css?v=1.9.686012018552" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/docs/resources/js/config.js?v=1.9.686010782930" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/docs/resources/js/config.js?v=1.9.686012018552" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/docs/resources/js/retype.js?v=1.9" defer data-turbo-track="reload"></script>
 </head>
     <body>
@@ -187,6 +188,7 @@
     </h1>
 </doc-anchor-target>
 <p><a href="https://logic-link-bot.github.io">Logic Link</a> is a discord bot that was created to conviently transform normally time consuming tasks with the use of simple and straightforward commands on Discord.</p>
+<hr />
 <doc-anchor-target id="features">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#features">#</doc-anchor-trigger>
@@ -194,48 +196,32 @@
     </h1>
 </doc-anchor-target>
 <p>Logic Link has over 60 useful commands and many advanced features.</p>
-<doc-anchor-target id="pastebin">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pastebin">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F5D1;&#xFE0F;</span> Pastebin</span>
-    </h2>
-</doc-anchor-target>
+<doc-panels>
+   <doc-panel id="pastebin">
+       <template #title><span class="docs-emoji">&#x1F5D1;&#xFE0F;</span> Pastebin</template>
 <p>With the use of one simple command, you can generate a new pastebin link directly from Discord! <span class="docs-emoji">&#x1F973;</span></p>
-<doc-anchor-target id="tickets-tickets">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tickets-tickets">#</doc-anchor-trigger>
-        <span>:tickets: Tickets</span>
-    </h2>
-</doc-anchor-target>
+   </doc-panel>
+   <doc-panel id="tickets">
+       <template #title><span class="docs-emoji">&#x1F3AB;</span> Tickets</template>
 <p>The feature rich ticket system allows you to organize excess clutter in channels.</p>
-<doc-anchor-target id="tools-moderation">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tools-moderation">#</doc-anchor-trigger>
-        <span>:tools: Moderation</span>
-    </h2>
-</doc-anchor-target>
+   </doc-panel>
+   <doc-panel id="moderation">
+       <template #title><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span> Moderation</template>
 <p>Step up your server&#x27;s defences with Logic Link&#x27;s moderation and auto-mod systems.</p>
-<doc-anchor-target id="welcoming">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#welcoming">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F44B;</span> Welcoming</span>
-    </h2>
-</doc-anchor-target>
+   </doc-panel>
+   <doc-panel id="welcoming">
+       <template #title><span class="docs-emoji">&#x1F44B;</span> Welcoming</template>
 <p>Say hello to your new server members by using our easy to setup welcoming system.</p>
-<doc-anchor-target id="role-management">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#role-management">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4C2;</span> Role Management</span>
-    </h2>
-</doc-anchor-target>
+   </doc-panel>
+   <doc-panel id="role-management">
+       <template #title><span class="docs-emoji">&#x1F4C2;</span> Role Management</template>
 <p>No need to manually add roles to users, use Logic Link&#x27;s advanced role management systems.</p>
-<doc-anchor-target id="role-and-channel-creation">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#role-and-channel-creation">#</doc-anchor-trigger>
-        <span><span class="docs-emoji">&#x1F4DA;</span> Role and Channel Creation</span>
-    </h2>
-</doc-anchor-target>
+   </doc-panel>
+   <doc-panel id="role-and-channel-creation">
+       <template #title><span class="docs-emoji">&#x1F4DA;</span> Role and Channel Creation</template>
 <p>Easily create or delete roles and channels with the use of one single command.</p>
+   </doc-panel>
+</doc-panels>
 
 
 <div class="flex items-center mt-6 mb-6">
