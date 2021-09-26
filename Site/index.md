@@ -12,21 +12,21 @@ icon: home
 # Features
 Logic Link has over 60 useful commands and many advanced features.
 
-=== 🗑️ Pastebin
+==- 🗑️ Pastebin
 With the use of one simple command, you can generate a new pastebin link directly from Discord! :partying_face:
 
-=== 🎫 Tickets
+==- 🎫 Tickets
 The feature rich ticket system allows you to organize excess clutter in channels.
 
-=== 🛠️ Moderation
+==- 🛠️ Moderation
 Step up your server's defences with Logic Link's moderation and auto-mod systems.
 
-=== 👋 Welcoming
+==- 👋 Welcoming
 Say hello to your new server members by using our easy to setup welcoming system.
 
-=== 📂 Role Management
+==- 📂 Role Management
 No need to manually add roles to users, use Logic Link's advanced role management systems.
 
-=== 📚 Role and Channel Creation
+==- 📚 Role and Channel Creation
 Easily create or delete roles and channels with the use of one single command.
-===
+==-
