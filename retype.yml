@@ -1,9 +1,9 @@
-input: ./
+input: ./Site
 branding:
   title: Logic Link
   label: Docs
 
-favicon: Docs/Media/logo.png
+favicon: Site/Media/logo.png
 url: logic-link-bot.github.io/docs
 
 meta:

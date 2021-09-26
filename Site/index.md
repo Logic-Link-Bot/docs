@@ -1,6 +1,6 @@
 ---
 label: Welcome
-categories: [welcome]
+tags: [welcome]
 icon: home
 ---
 
