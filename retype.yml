@@ -3,7 +3,7 @@ branding:
   title: Logic Link
   label: Docs
 
-favicon: media/logo.png
+favicon: Docs/Media/logo.png
 url: logic-link-bot.github.io/docs
 
 meta:
