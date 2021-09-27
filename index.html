@@ -26,9 +26,9 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/docs/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/docs/media/logo.png" rel="icon" />
-    <link href="/docs/resources/css/retype.css?v=1.9.686063438511" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/docs/resources/css/retype.css?v=1.9.686067282127" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/docs/resources/js/config.js?v=1.9.686063438511" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/docs/resources/js/config.js?v=1.9.686067282127" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/docs/resources/js/retype.js?v=1.9" defer data-turbo-track="reload"></script>
 </head>
     <body>
@@ -60,7 +60,7 @@
             <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://logic-link-bot.github.io">Home</a>
         </li>
         <li class="md:mr-6">
-            <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://discord.gg/tg9sNMjpsU">Discord Server</a>
+            <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://discord.gg/tg9sNMjpsU">Support Server</a>
         </li>
     </ul>
 </nav>
@@ -150,7 +150,7 @@
                             <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://logic-link-bot.github.io">Home</a>
                         </li>
                         <li class="mr-6">
-                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/tg9sNMjpsU">Discord Server</a>
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/tg9sNMjpsU">Support Server</a>
                         </li>
                     </ul>
                 </nav>
@@ -197,6 +197,14 @@
 </doc-anchor-target>
 <p>Logic Link has over 60 useful commands and many advanced features.</p>
 <doc-panels>
+   <doc-panel id="voice" collapsed>
+       <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M11.553 3.064A.75.75 0 0112 3.75v16.5a.75.75 0 01-1.255.555L5.46 16H2.75A1.75 1.75 0 011 14.25v-4.5C1 8.784 1.784 8 2.75 8h2.71l5.285-4.805a.75.75 0 01.808-.13zM10.5 5.445l-4.245 3.86a.75.75 0 01-.505.195h-3a.25.25 0 00-.25.25v4.5c0 .138.112.25.25.25h3a.75.75 0 01.505.195l4.245 3.86V5.445z"/><path d="M18.718 4.222a.75.75 0 011.06 0c4.296 4.296 4.296 11.26 0 15.556a.75.75 0 01-1.06-1.06 9.5 9.5 0 000-13.436.75.75 0 010-1.06z"/><path d="M16.243 7.757a.75.75 0 10-1.061 1.061 4.5 4.5 0 010 6.364.75.75 0 001.06 1.06 6 6 0 000-8.485z"/></g></g></svg> Voice</template>
+<p>Listen along to music with your friends and have a fun time.</p>
+   </doc-panel>
+   <doc-panel id="info" collapsed>
+       <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M13 7.5a1 1 0 11-2 0 1 1 0 012 0zm-3 3.75a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v4.25h.75a.75.75 0 010 1.5h-3a.75.75 0 010-1.5h.75V12h-.75a.75.75 0 01-.75-.75z"/><path fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"/></g></g></svg> Info</template>
+<p>View detailed information about roles, channels, users and your server.</p>
+   </doc-panel>
    <doc-panel id="pastebin" collapsed>
        <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M5.962 2.513a.75.75 0 01-.475.949l-.816.272a.25.25 0 00-.171.237V21.25c0 .138.112.25.25.25h14.5a.25.25 0 00.25-.25V3.97a.25.25 0 00-.17-.236l-.817-.272a.75.75 0 01.474-1.424l.816.273A1.75 1.75 0 0121 3.97v17.28A1.75 1.75 0 0119.25 23H4.75A1.75 1.75 0 013 21.25V3.97a1.75 1.75 0 011.197-1.66l.816-.272a.75.75 0 01.949.475z"/><path fill-rule="evenodd" d="M7 1.75C7 .784 7.784 0 8.75 0h6.5C16.216 0 17 .784 17 1.75v1.5A1.75 1.75 0 0115.25 5h-6.5A1.75 1.75 0 017 3.25v-1.5zm1.75-.25a.25.25 0 00-.25.25v1.5c0 .138.112.25.25.25h6.5a.25.25 0 00.25-.25v-1.5a.25.25 0 00-.25-.25h-6.5z"/></g></g></svg> Pastebin</template>
 <p>With the use of our pastebin command, you can generate a new pastebin link in a few seconds directly from the comfort of Discord! <span class="docs-emoji">&#x1F973;</span></p>
@@ -215,11 +223,11 @@
    </doc-panel>
    <doc-panel id="role-management" collapsed>
        <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M3.75 4.5a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h16.5a.25.25 0 00.25-.25V7.687a.25.25 0 00-.25-.25h-8.471a1.75 1.75 0 01-1.447-.765L8.928 4.61a.25.25 0 00-.208-.11H3.75zM2 4.75C2 3.784 2.784 3 3.75 3h4.971c.58 0 1.12.286 1.447.765l1.404 2.063a.25.25 0 00.207.11h8.471c.966 0 1.75.783 1.75 1.75V19.25A1.75 1.75 0 0120.25 21H3.75A1.75 1.75 0 012 19.25V4.75z"/></g></g></svg> Role Management</template>
-<p>With the use of one simple command, you can say goodbye to manually adding and removing roles to or from users.</p>
+<p>By using one simple command, you can now say goodbye to manually adding and removing roles to or from users.</p>
    </doc-panel>
-   <doc-panel id="role-and-channel-creation" collapsed>
-       <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M7.875 2.292a.125.125 0 00-.032.018A7.24 7.24 0 004.75 8.25a7.247 7.247 0 003.654 6.297c.57.327.982.955.941 1.682v.002l-.317 6.058a.75.75 0 11-1.498-.078l.317-6.062v-.004c.006-.09-.047-.215-.188-.296A8.747 8.747 0 013.25 8.25a8.74 8.74 0 013.732-7.169 1.547 1.547 0 011.709-.064c.484.292.809.835.809 1.46v4.714a.25.25 0 00.119.213l2.25 1.385c.08.05.182.05.262 0l2.25-1.385a.25.25 0 00.119-.213V2.478c0-.626.325-1.169.81-1.461a1.547 1.547 0 011.708.064 8.74 8.74 0 013.732 7.17 8.747 8.747 0 01-4.41 7.598c-.14.081-.193.206-.188.296v.004l.318 6.062a.75.75 0 11-1.498.078l-.317-6.058v-.002c-.041-.727.37-1.355.94-1.682A7.247 7.247 0 0019.25 8.25a7.24 7.24 0 00-3.093-5.94.125.125 0 00-.032-.018l-.01-.001c-.003 0-.014 0-.031.01-.036.022-.084.079-.084.177V7.19a1.75 1.75 0 01-.833 1.49l-2.25 1.385a1.75 1.75 0 01-1.834 0l-2.25-1.384A1.75 1.75 0 018 7.192V2.477c0-.098-.048-.155-.084-.176a.062.062 0 00-.031-.011l-.01.001z"/></g></g></svg> Role and Channel Creation</template>
-<p>Easily create or delete roles and channels with the use of one single command.</p>
+   <doc-panel id="utility" collapsed>
+       <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M7.875 2.292a.125.125 0 00-.032.018A7.24 7.24 0 004.75 8.25a7.247 7.247 0 003.654 6.297c.57.327.982.955.941 1.682v.002l-.317 6.058a.75.75 0 11-1.498-.078l.317-6.062v-.004c.006-.09-.047-.215-.188-.296A8.747 8.747 0 013.25 8.25a8.74 8.74 0 013.732-7.169 1.547 1.547 0 011.709-.064c.484.292.809.835.809 1.46v4.714a.25.25 0 00.119.213l2.25 1.385c.08.05.182.05.262 0l2.25-1.385a.25.25 0 00.119-.213V2.478c0-.626.325-1.169.81-1.461a1.547 1.547 0 011.708.064 8.74 8.74 0 013.732 7.17 8.747 8.747 0 01-4.41 7.598c-.14.081-.193.206-.188.296v.004l.318 6.062a.75.75 0 11-1.498.078l-.317-6.058v-.002c-.041-.727.37-1.355.94-1.682A7.247 7.247 0 0019.25 8.25a7.24 7.24 0 00-3.093-5.94.125.125 0 00-.032-.018l-.01-.001c-.003 0-.014 0-.031.01-.036.022-.084.079-.084.177V7.19a1.75 1.75 0 01-.833 1.49l-2.25 1.385a1.75 1.75 0 01-1.834 0l-2.25-1.384A1.75 1.75 0 018 7.192V2.477c0-.098-.048-.155-.084-.176a.062.062 0 00-.031-.011l-.01.001z"/></g></g></svg> Utility</template>
+<p>Now you can quickly create, delete and manage your roles and channels in seconds.</p>
    </doc-panel>
 </doc-panels>
 <doc-anchor-target id="invite">
@@ -228,8 +236,8 @@
         <span>Invite</span>
     </h1>
 </doc-anchor-target>
-<p>Ready to invite Logic Link?<br />
-Click the link below to get started!<br />
+<p>Ready to get started with Logic Link?<br />
+Invite Logic Link to your server and get started for free!<br /><br />
 <a href="https://discord.com/oauth2/authorize?client_id=836761561074499695&amp;permissions=1609591030&amp;scope=bot%20applications.commands" class="no-link inline-flex items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md">
     <span>Invite Here</span>
 </a></p>
@@ -242,6 +250,9 @@ Click the link below to get started!<br />
         </a>
         <span class="mr-2"><a href="/docs/tags/welcome/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
     <span>welcome</span>
+</a></span>
+        <span class="mr-2"><a href="/docs/tags/invite/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>invite</span>
 </a></span>
     </span>
 </div>
