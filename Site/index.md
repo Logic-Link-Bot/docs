@@ -32,6 +32,6 @@ Easily create or delete roles and channels with the use of one single command.
 ==-
 
 # Invite
-Ready to invite Logic Link?
-Click the link below to get started!
+Ready to invite Logic Link?<br />
+Click the link below to get started!<br />
 [!button Invite Here](https://discord.com/oauth2/authorize?client_id=836761561074499695&permissions=1609591030&scope=bot%20applications.commands)
