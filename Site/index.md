@@ -1,6 +1,6 @@
 ---
 label: Welcome
-tags: [welcome, invite]
+tags: [welcome, features, invite]
 icon: home
 ---
 
@@ -21,7 +21,7 @@ View detailed information about roles, channels, users and your server.
 With the use of our pastebin command, you can generate a new pastebin link in a few seconds directly from the comfort of Discord! :partying_face:
 
 ==- :icon-bookmark: Tickets
-Our feature rich ticket system allows you to organize excess clutter in channels and provide a private space for your server members to talk.
+Our feature rich ticket system allows you to organize excess clutter in channels and provide a private space for your server members to communicate.
 
 ==- :icon-shield-check: Moderation
 Step up your server's defences with Logic Link's moderation and auto-mod systems.
