@@ -2,6 +2,7 @@
 label: Welcome
 tags: [welcome, features, invite]
 icon: home
+order: A
 ---
 
 # Welcome
