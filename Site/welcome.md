@@ -5,7 +5,7 @@ icon: home
 ---
 
 # Welcome
-[Logic Link](https://logic-link-bot.github.io) is a discord bot that was created to conviently transform normally time consuming tasks with the use of simple and straightforward commands on Discord.
+[Logic Link](https://logic-link-bot.github.io) is a Discord bot that was created to conviently transform normally time consuming tasks with the use of simple and straightforward commands on Discord.
 
 ---
 
