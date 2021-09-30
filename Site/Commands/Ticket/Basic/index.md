@@ -1,6 +1,6 @@
 ---
 icon: table
 label: Basic
-category: basic
+categories: [basic, ticket]
 order: -1
 ---

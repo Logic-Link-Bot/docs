@@ -1,6 +1,6 @@
 ---
 icon: mortar-board
 label: Support
-category: support
+categories: [ticket-support, ticket]
 order: -2
 ---
