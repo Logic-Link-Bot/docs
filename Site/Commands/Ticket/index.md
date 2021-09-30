@@ -1,8 +1,6 @@
 ---
-icon: gear
+icon: tag
 label: Administrator
 category: administrator
 order: -3
 ---
-
-# Administrator Commands

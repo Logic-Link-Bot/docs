@@ -2,7 +2,7 @@
 label: Frequently Asked Questions
 tags: [faq, questions]
 icon: question
-order: B
+order: -2
 ---
 
 # Frequently Asked Questions

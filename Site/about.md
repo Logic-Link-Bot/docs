@@ -2,7 +2,7 @@
 label: About
 tags: [about, info]
 icon: note
-order: C
+order: -3
 ---
 
 # About
