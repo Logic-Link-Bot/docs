@@ -3,6 +3,7 @@ icon: browser
 label: Commands
 tags: [commands, help]
 category: category
+expanded: true
 order: -4
 ---
 
