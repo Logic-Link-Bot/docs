@@ -2,7 +2,7 @@
 icon: bug
 label: Support
 category: support
-order: -4
+order: -5
 ---
 
 # Support Commands

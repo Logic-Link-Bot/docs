@@ -1,6 +1,6 @@
 ---
 icon: tag
-label: Administrator
-category: administrator
-order: -3
+label: Ticket
+category: ticket
+order: -4
 ---
